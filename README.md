@@ -26,7 +26,7 @@
 
 - Create server either via portal or via api
 ```
-export TOKEN=<your digitalocean TOKEN>
+TOKEN=<your digitalocean TOKEN>
 curl -X POST -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer '$TOKEN'' \
     -d '{"name":"bootcamp-chapter-5",
