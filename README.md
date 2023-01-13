@@ -10,9 +10,11 @@ git rm .git -Rf
 
 - initialize repo
 git init
-git add
+git add .
 git config user.name Jonas
 git config user.email (my-emailaddress)
 
+git remote add origin https://<mygh-token>@gitlab.com/devops-bootcamp3/node-project 
+
 git commit -m "initial commit"
-git -U push
+git push -u
