@@ -47,8 +47,8 @@ this has already been done via the curl command see above
 ## 4 Copy App and package.json
 
 On local host execute
-scp package.json root@<vm_ip>:/root
-scp bootcamp-node-project-1.0.0.tgz root@<vm_ip>:/root
+- scp package.json root@<vm_ip>:/root
+- scp bootcamp-node-project-1.0.0.tgz root@<vm_ip>:/root
 
 ## 5 Run Node App
 
