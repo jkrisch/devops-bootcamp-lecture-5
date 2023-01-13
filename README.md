@@ -17,4 +17,4 @@ git config user.email (my-emailaddress)
 git remote add origin https://<mygh-token>@gitlab.com/devops-bootcamp3/node-project 
 
 git commit -m "initial commit"
-git push -u
+git push -u origin master
